@@ -1,0 +1,38 @@
+# 依赖与虚拟环境
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# 演示目录由 examples/make_demo.py 生成，里面是拼出来的假密钥，不入库
+examples/demo/
+
+# 编辑器与系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# 临时文件
+*.log
+tmp/
+.cache/
+
+# 真的密钥不要进仓库
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
